@@ -90,7 +90,7 @@ def Honeypot(s):
     Project Honeypot's Http:BL API info: https://www.projecthoneypot.org/httpbl_api.php
     """
     print (header("Project Honeypot"))
-    api_key = ""
+    api_key = "uffqgjcuneoo"
     if not api_key:
         print "[!] You must configure your Project Honeypot API key"
         return
@@ -211,7 +211,7 @@ def SafeBrowsing(s):
     Google SafeBrowsing API info: https://developers.google.com/safe-browsing/
     """
     print (header("Google Safe Browsing"))
-    api_key = ""
+    api_key = "AIzaSyAsdst0XUitDJnuuvmbG5bMOI6mU9rII80"
     if not api_key:
         print "[!] You must configure your Google SafeBrowsing API key"
     else:
@@ -277,7 +277,7 @@ def VirusTotal(s):
     VirusTotal API info: https://www.virustotal.com/documentation/public-api/
     """
     print (header("Virus Total"))
-    api_key = ""
+    api_key = "664daf17b901239a87c9f6eba3871bbb66ac657f4274b24a3b3ace3e0ffafeb2"
     if not api_key:
         print "[!] You must configure your VirusTotal API key"
     else:
